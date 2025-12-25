@@ -1,0 +1,1693 @@
+{
+  "sensors": [
+    {
+      "id": 0,
+      "dependencies": []
+    },
+    {
+      "id": 1,
+      "dependencies": []
+    },
+    {
+      "id": 2,
+      "dependencies": []
+    },
+    {
+      "id": 3,
+      "dependencies": []
+    },
+    {
+      "id": 4,
+      "dependencies": []
+    },
+    {
+      "id": 5,
+      "dependencies": []
+    },
+    {
+      "id": 6,
+      "dependencies": []
+    },
+    {
+      "id": 7,
+      "dependencies": []
+    },
+    {
+      "id": 8,
+      "dependencies": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": 9,
+      "dependencies": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "id": 10,
+      "dependencies": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "id": 11,
+      "dependencies": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 12,
+      "dependencies": [
+        2,
+        6,
+        7
+      ]
+    },
+    {
+      "id": 13,
+      "dependencies": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": 14,
+      "dependencies": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "id": 15,
+      "dependencies": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "dependencies": [
+        8,
+        9,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 17,
+      "dependencies": [
+        9,
+        10,
+        13
+      ]
+    },
+    {
+      "id": 18,
+      "dependencies": [
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 19,
+      "dependencies": [
+        10,
+        12,
+        14
+      ]
+    },
+    {
+      "id": 20,
+      "dependencies": [
+        9,
+        10,
+        11,
+        15
+      ]
+    },
+    {
+      "id": 21,
+      "dependencies": [
+        8,
+        9,
+        11,
+        12,
+        15
+      ]
+    },
+    {
+      "id": 22,
+      "dependencies": [
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": 23,
+      "dependencies": [
+        9,
+        13,
+        15
+      ]
+    },
+    {
+      "id": 24,
+      "dependencies": [
+        13,
+        14
+      ]
+    },
+    {
+      "id": 25,
+      "dependencies": [
+        18,
+        21
+      ]
+    },
+    {
+      "id": 26,
+      "dependencies": [
+        16,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": 27,
+      "dependencies": [
+        16,
+        18,
+        19,
+        24
+      ]
+    },
+    {
+      "id": 28,
+      "dependencies": [
+        16,
+        18,
+        22,
+        24
+      ]
+    },
+    {
+      "id": 29,
+      "dependencies": [
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 30,
+      "dependencies": [
+        17,
+        18,
+        22,
+        23
+      ]
+    },
+    {
+      "id": 31,
+      "dependencies": [
+        16,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 32,
+      "dependencies": [
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": 33,
+      "dependencies": [
+        17,
+        20,
+        21,
+        22,
+        24
+      ]
+    },
+    {
+      "id": 34,
+      "dependencies": [
+        25,
+        27,
+        28,
+        32
+      ]
+    },
+    {
+      "id": 35,
+      "dependencies": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "id": 36,
+      "dependencies": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        31
+      ]
+    },
+    {
+      "id": 37,
+      "dependencies": [
+        25,
+        26,
+        27,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "id": 38,
+      "dependencies": [
+        29,
+        33
+      ]
+    },
+    {
+      "id": 39,
+      "dependencies": [
+        34,
+        35,
+        36,
+        38
+      ]
+    },
+    {
+      "id": 40,
+      "dependencies": [
+        34,
+        36,
+        38
+      ]
+    },
+    {
+      "id": 41,
+      "dependencies": [
+        34,
+        36
+      ]
+    },
+    {
+      "id": 42,
+      "dependencies": [
+        37,
+        38
+      ]
+    },
+    {
+      "id": 43,
+      "dependencies": [
+        36,
+        37,
+        38
+      ]
+    },
+    {
+      "id": 44,
+      "dependencies": [
+        39,
+        42,
+        43
+      ]
+    },
+    {
+      "id": 45,
+      "dependencies": [
+        41,
+        42
+      ]
+    },
+    {
+      "id": 46,
+      "dependencies": [
+        39,
+        41,
+        43
+      ]
+    },
+    {
+      "id": 47,
+      "dependencies": [
+        43
+      ]
+    },
+    {
+      "id": 48,
+      "dependencies": [
+        39,
+        42,
+        43
+      ]
+    },
+    {
+      "id": 49,
+      "dependencies": [
+        42,
+        43
+      ]
+    },
+    {
+      "id": 50,
+      "dependencies": [
+        41,
+        43
+      ]
+    },
+    {
+      "id": 51,
+      "dependencies": [
+        39,
+        41,
+        42
+      ]
+    },
+    {
+      "id": 52,
+      "dependencies": [
+        40,
+        41,
+        43
+      ]
+    },
+    {
+      "id": 53,
+      "dependencies": [
+        46,
+        48,
+        51
+      ]
+    },
+    {
+      "id": 54,
+      "dependencies": [
+        44,
+        48,
+        50
+      ]
+    },
+    {
+      "id": 55,
+      "dependencies": [
+        46,
+        47,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "id": 56,
+      "dependencies": [
+        45,
+        47,
+        48,
+        51,
+        52
+      ]
+    },
+    {
+      "id": 57,
+      "dependencies": [
+        44,
+        45,
+        47,
+        48,
+        49,
+        52
+      ]
+    },
+    {
+      "id": 58,
+      "dependencies": [
+        45,
+        46,
+        47,
+        49,
+        50,
+        51
+      ]
+    },
+    {
+      "id": 59,
+      "dependencies": [
+        55,
+        56
+      ]
+    },
+    {
+      "id": 60,
+      "dependencies": [
+        54,
+        56,
+        58
+      ]
+    },
+    {
+      "id": 61,
+      "dependencies": [
+        53,
+        54,
+        55,
+        57,
+        58
+      ]
+    },
+    {
+      "id": 62,
+      "dependencies": [
+        53,
+        57
+      ]
+    },
+    {
+      "id": 63,
+      "dependencies": [
+        55,
+        57
+      ]
+    },
+    {
+      "id": 64,
+      "dependencies": [
+        54,
+        55,
+        56,
+        57
+      ]
+    },
+    {
+      "id": 65,
+      "dependencies": [
+        53,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "id": 66,
+      "dependencies": [
+        54,
+        55,
+        58
+      ]
+    }
+  ],
+  "risks": [
+    {
+      "fromSensor": 1,
+      "toSensor": 9,
+      "risk": 10
+    },
+    {
+      "fromSensor": 0,
+      "toSensor": 10,
+      "risk": 7
+    },
+    {
+      "fromSensor": 1,
+      "toSensor": 10,
+      "risk": 8
+    },
+    {
+      "fromSensor": 3,
+      "toSensor": 8,
+      "risk": 6
+    },
+    {
+      "fromSensor": 2,
+      "toSensor": 9,
+      "risk": 6
+    },
+    {
+      "fromSensor": 4,
+      "toSensor": 8,
+      "risk": 6
+    },
+    {
+      "fromSensor": 1,
+      "toSensor": 11,
+      "risk": 10
+    },
+    {
+      "fromSensor": 2,
+      "toSensor": 10,
+      "risk": 8
+    },
+    {
+      "fromSensor": 3,
+      "toSensor": 10,
+      "risk": 6
+    },
+    {
+      "fromSensor": 5,
+      "toSensor": 8,
+      "risk": 8
+    },
+    {
+      "fromSensor": 2,
+      "toSensor": 11,
+      "risk": 8
+    },
+    {
+      "fromSensor": 4,
+      "toSensor": 10,
+      "risk": 7
+    },
+    {
+      "fromSensor": 6,
+      "toSensor": 8,
+      "risk": 9
+    },
+    {
+      "fromSensor": 2,
+      "toSensor": 12,
+      "risk": 5
+    },
+    {
+      "fromSensor": 2,
+      "toSensor": 13,
+      "risk": 7
+    },
+    {
+      "fromSensor": 0,
+      "toSensor": 15,
+      "risk": 10
+    },
+    {
+      "fromSensor": 4,
+      "toSensor": 11,
+      "risk": 10
+    },
+    {
+      "fromSensor": 6,
+      "toSensor": 10,
+      "risk": 10
+    },
+    {
+      "fromSensor": 1,
+      "toSensor": 15,
+      "risk": 6
+    },
+    {
+      "fromSensor": 5,
+      "toSensor": 11,
+      "risk": 6
+    },
+    {
+      "fromSensor": 7,
+      "toSensor": 9,
+      "risk": 10
+    },
+    {
+      "fromSensor": 2,
+      "toSensor": 14,
+      "risk": 9
+    },
+    {
+      "fromSensor": 3,
+      "toSensor": 13,
+      "risk": 8
+    },
+    {
+      "fromSensor": 3,
+      "toSensor": 14,
+      "risk": 6
+    },
+    {
+      "fromSensor": 6,
+      "toSensor": 11,
+      "risk": 9
+    },
+    {
+      "fromSensor": 7,
+      "toSensor": 11,
+      "risk": 5
+    },
+    {
+      "fromSensor": 5,
+      "toSensor": 13,
+      "risk": 9
+    },
+    {
+      "fromSensor": 6,
+      "toSensor": 12,
+      "risk": 5
+    },
+    {
+      "fromSensor": 7,
+      "toSensor": 12,
+      "risk": 6
+    },
+    {
+      "fromSensor": 6,
+      "toSensor": 14,
+      "risk": 5
+    },
+    {
+      "fromSensor": 8,
+      "toSensor": 16,
+      "risk": 6
+    },
+    {
+      "fromSensor": 9,
+      "toSensor": 16,
+      "risk": 9
+    },
+    {
+      "fromSensor": 9,
+      "toSensor": 17,
+      "risk": 5
+    },
+    {
+      "fromSensor": 10,
+      "toSensor": 17,
+      "risk": 7
+    },
+    {
+      "fromSensor": 10,
+      "toSensor": 19,
+      "risk": 10
+    },
+    {
+      "fromSensor": 8,
+      "toSensor": 21,
+      "risk": 8
+    },
+    {
+      "fromSensor": 9,
+      "toSensor": 20,
+      "risk": 7
+    },
+    {
+      "fromSensor": 10,
+      "toSensor": 20,
+      "risk": 9
+    },
+    {
+      "fromSensor": 13,
+      "toSensor": 17,
+      "risk": 10
+    },
+    {
+      "fromSensor": 8,
+      "toSensor": 22,
+      "risk": 8
+    },
+    {
+      "fromSensor": 9,
+      "toSensor": 21,
+      "risk": 6
+    },
+    {
+      "fromSensor": 12,
+      "toSensor": 18,
+      "risk": 8
+    },
+    {
+      "fromSensor": 14,
+      "toSensor": 16,
+      "risk": 9
+    },
+    {
+      "fromSensor": 11,
+      "toSensor": 20,
+      "risk": 10
+    },
+    {
+      "fromSensor": 15,
+      "toSensor": 16,
+      "risk": 6
+    },
+    {
+      "fromSensor": 13,
+      "toSensor": 18,
+      "risk": 6
+    },
+    {
+      "fromSensor": 12,
+      "toSensor": 19,
+      "risk": 7
+    },
+    {
+      "fromSensor": 11,
+      "toSensor": 21,
+      "risk": 7
+    },
+    {
+      "fromSensor": 9,
+      "toSensor": 23,
+      "risk": 5
+    },
+    {
+      "fromSensor": 14,
+      "toSensor": 18,
+      "risk": 6
+    },
+    {
+      "fromSensor": 10,
+      "toSensor": 22,
+      "risk": 10
+    },
+    {
+      "fromSensor": 14,
+      "toSensor": 19,
+      "risk": 8
+    },
+    {
+      "fromSensor": 11,
+      "toSensor": 22,
+      "risk": 10
+    },
+    {
+      "fromSensor": 15,
+      "toSensor": 18,
+      "risk": 7
+    },
+    {
+      "fromSensor": 12,
+      "toSensor": 21,
+      "risk": 8
+    },
+    {
+      "fromSensor": 12,
+      "toSensor": 22,
+      "risk": 5
+    },
+    {
+      "fromSensor": 13,
+      "toSensor": 22,
+      "risk": 7
+    },
+    {
+      "fromSensor": 15,
+      "toSensor": 20,
+      "risk": 5
+    },
+    {
+      "fromSensor": 14,
+      "toSensor": 22,
+      "risk": 6
+    },
+    {
+      "fromSensor": 15,
+      "toSensor": 21,
+      "risk": 8
+    },
+    {
+      "fromSensor": 13,
+      "toSensor": 23,
+      "risk": 10
+    },
+    {
+      "fromSensor": 13,
+      "toSensor": 24,
+      "risk": 7
+    },
+    {
+      "fromSensor": 15,
+      "toSensor": 22,
+      "risk": 10
+    },
+    {
+      "fromSensor": 15,
+      "toSensor": 23,
+      "risk": 8
+    },
+    {
+      "fromSensor": 14,
+      "toSensor": 24,
+      "risk": 5
+    },
+    {
+      "fromSensor": 16,
+      "toSensor": 26,
+      "risk": 8
+    },
+    {
+      "fromSensor": 18,
+      "toSensor": 25,
+      "risk": 6
+    },
+    {
+      "fromSensor": 16,
+      "toSensor": 27,
+      "risk": 6
+    },
+    {
+      "fromSensor": 16,
+      "toSensor": 28,
+      "risk": 9
+    },
+    {
+      "fromSensor": 19,
+      "toSensor": 26,
+      "risk": 8
+    },
+    {
+      "fromSensor": 18,
+      "toSensor": 27,
+      "risk": 9
+    },
+    {
+      "fromSensor": 16,
+      "toSensor": 29,
+      "risk": 8
+    },
+    {
+      "fromSensor": 20,
+      "toSensor": 26,
+      "risk": 8
+    },
+    {
+      "fromSensor": 19,
+      "toSensor": 27,
+      "risk": 5
+    },
+    {
+      "fromSensor": 21,
+      "toSensor": 25,
+      "risk": 8
+    },
+    {
+      "fromSensor": 18,
+      "toSensor": 28,
+      "risk": 7
+    },
+    {
+      "fromSensor": 17,
+      "toSensor": 30,
+      "risk": 7
+    },
+    {
+      "fromSensor": 18,
+      "toSensor": 29,
+      "risk": 10
+    },
+    {
+      "fromSensor": 21,
+      "toSensor": 26,
+      "risk": 10
+    },
+    {
+      "fromSensor": 16,
+      "toSensor": 31,
+      "risk": 5
+    },
+    {
+      "fromSensor": 19,
+      "toSensor": 29,
+      "risk": 8
+    },
+    {
+      "fromSensor": 18,
+      "toSensor": 30,
+      "risk": 7
+    },
+    {
+      "fromSensor": 22,
+      "toSensor": 26,
+      "risk": 8
+    },
+    {
+      "fromSensor": 20,
+      "toSensor": 29,
+      "risk": 8
+    },
+    {
+      "fromSensor": 17,
+      "toSensor": 32,
+      "risk": 7
+    },
+    {
+      "fromSensor": 23,
+      "toSensor": 26,
+      "risk": 8
+    },
+    {
+      "fromSensor": 22,
+      "toSensor": 28,
+      "risk": 10
+    },
+    {
+      "fromSensor": 17,
+      "toSensor": 33,
+      "risk": 7
+    },
+    {
+      "fromSensor": 18,
+      "toSensor": 32,
+      "risk": 9
+    },
+    {
+      "fromSensor": 22,
+      "toSensor": 29,
+      "risk": 8
+    },
+    {
+      "fromSensor": 24,
+      "toSensor": 27,
+      "risk": 9
+    },
+    {
+      "fromSensor": 23,
+      "toSensor": 29,
+      "risk": 9
+    },
+    {
+      "fromSensor": 24,
+      "toSensor": 28,
+      "risk": 7
+    },
+    {
+      "fromSensor": 22,
+      "toSensor": 30,
+      "risk": 7
+    },
+    {
+      "fromSensor": 20,
+      "toSensor": 32,
+      "risk": 9
+    },
+    {
+      "fromSensor": 23,
+      "toSensor": 30,
+      "risk": 9
+    },
+    {
+      "fromSensor": 20,
+      "toSensor": 33,
+      "risk": 5
+    },
+    {
+      "fromSensor": 24,
+      "toSensor": 29,
+      "risk": 6
+    },
+    {
+      "fromSensor": 22,
+      "toSensor": 31,
+      "risk": 6
+    },
+    {
+      "fromSensor": 21,
+      "toSensor": 32,
+      "risk": 10
+    },
+    {
+      "fromSensor": 22,
+      "toSensor": 32,
+      "risk": 5
+    },
+    {
+      "fromSensor": 21,
+      "toSensor": 33,
+      "risk": 8
+    },
+    {
+      "fromSensor": 23,
+      "toSensor": 31,
+      "risk": 10
+    },
+    {
+      "fromSensor": 23,
+      "toSensor": 32,
+      "risk": 6
+    },
+    {
+      "fromSensor": 24,
+      "toSensor": 31,
+      "risk": 8
+    },
+    {
+      "fromSensor": 22,
+      "toSensor": 33,
+      "risk": 5
+    },
+    {
+      "fromSensor": 24,
+      "toSensor": 32,
+      "risk": 7
+    },
+    {
+      "fromSensor": 24,
+      "toSensor": 33,
+      "risk": 6
+    },
+    {
+      "fromSensor": 25,
+      "toSensor": 34,
+      "risk": 7
+    },
+    {
+      "fromSensor": 26,
+      "toSensor": 35,
+      "risk": 7
+    },
+    {
+      "fromSensor": 27,
+      "toSensor": 34,
+      "risk": 10
+    },
+    {
+      "fromSensor": 25,
+      "toSensor": 36,
+      "risk": 9
+    },
+    {
+      "fromSensor": 27,
+      "toSensor": 35,
+      "risk": 7
+    },
+    {
+      "fromSensor": 25,
+      "toSensor": 37,
+      "risk": 5
+    },
+    {
+      "fromSensor": 28,
+      "toSensor": 34,
+      "risk": 8
+    },
+    {
+      "fromSensor": 26,
+      "toSensor": 36,
+      "risk": 5
+    },
+    {
+      "fromSensor": 28,
+      "toSensor": 35,
+      "risk": 5
+    },
+    {
+      "fromSensor": 26,
+      "toSensor": 37,
+      "risk": 7
+    },
+    {
+      "fromSensor": 27,
+      "toSensor": 36,
+      "risk": 9
+    },
+    {
+      "fromSensor": 29,
+      "toSensor": 35,
+      "risk": 5
+    },
+    {
+      "fromSensor": 27,
+      "toSensor": 37,
+      "risk": 7
+    },
+    {
+      "fromSensor": 28,
+      "toSensor": 36,
+      "risk": 5
+    },
+    {
+      "fromSensor": 30,
+      "toSensor": 35,
+      "risk": 8
+    },
+    {
+      "fromSensor": 28,
+      "toSensor": 37,
+      "risk": 6
+    },
+    {
+      "fromSensor": 29,
+      "toSensor": 36,
+      "risk": 10
+    },
+    {
+      "fromSensor": 31,
+      "toSensor": 35,
+      "risk": 8
+    },
+    {
+      "fromSensor": 32,
+      "toSensor": 34,
+      "risk": 8
+    },
+    {
+      "fromSensor": 31,
+      "toSensor": 36,
+      "risk": 7
+    },
+    {
+      "fromSensor": 32,
+      "toSensor": 35,
+      "risk": 6
+    },
+    {
+      "fromSensor": 29,
+      "toSensor": 38,
+      "risk": 5
+    },
+    {
+      "fromSensor": 33,
+      "toSensor": 35,
+      "risk": 8
+    },
+    {
+      "fromSensor": 31,
+      "toSensor": 37,
+      "risk": 10
+    },
+    {
+      "fromSensor": 32,
+      "toSensor": 37,
+      "risk": 9
+    },
+    {
+      "fromSensor": 33,
+      "toSensor": 38,
+      "risk": 6
+    },
+    {
+      "fromSensor": 34,
+      "toSensor": 39,
+      "risk": 9
+    },
+    {
+      "fromSensor": 35,
+      "toSensor": 39,
+      "risk": 9
+    },
+    {
+      "fromSensor": 34,
+      "toSensor": 40,
+      "risk": 9
+    },
+    {
+      "fromSensor": 36,
+      "toSensor": 39,
+      "risk": 10
+    },
+    {
+      "fromSensor": 34,
+      "toSensor": 41,
+      "risk": 8
+    },
+    {
+      "fromSensor": 36,
+      "toSensor": 40,
+      "risk": 10
+    },
+    {
+      "fromSensor": 36,
+      "toSensor": 41,
+      "risk": 9
+    },
+    {
+      "fromSensor": 38,
+      "toSensor": 39,
+      "risk": 7
+    },
+    {
+      "fromSensor": 38,
+      "toSensor": 40,
+      "risk": 7
+    },
+    {
+      "fromSensor": 37,
+      "toSensor": 42,
+      "risk": 9
+    },
+    {
+      "fromSensor": 36,
+      "toSensor": 43,
+      "risk": 7
+    },
+    {
+      "fromSensor": 38,
+      "toSensor": 42,
+      "risk": 7
+    },
+    {
+      "fromSensor": 37,
+      "toSensor": 43,
+      "risk": 9
+    },
+    {
+      "fromSensor": 38,
+      "toSensor": 43,
+      "risk": 9
+    },
+    {
+      "fromSensor": 39,
+      "toSensor": 44,
+      "risk": 5
+    },
+    {
+      "fromSensor": 39,
+      "toSensor": 46,
+      "risk": 5
+    },
+    {
+      "fromSensor": 42,
+      "toSensor": 44,
+      "risk": 5
+    },
+    {
+      "fromSensor": 41,
+      "toSensor": 45,
+      "risk": 10
+    },
+    {
+      "fromSensor": 43,
+      "toSensor": 44,
+      "risk": 10
+    },
+    {
+      "fromSensor": 42,
+      "toSensor": 45,
+      "risk": 7
+    },
+    {
+      "fromSensor": 41,
+      "toSensor": 46,
+      "risk": 5
+    },
+    {
+      "fromSensor": 39,
+      "toSensor": 48,
+      "risk": 7
+    },
+    {
+      "fromSensor": 43,
+      "toSensor": 46,
+      "risk": 8
+    },
+    {
+      "fromSensor": 43,
+      "toSensor": 47,
+      "risk": 10
+    },
+    {
+      "fromSensor": 42,
+      "toSensor": 48,
+      "risk": 9
+    },
+    {
+      "fromSensor": 39,
+      "toSensor": 51,
+      "risk": 6
+    },
+    {
+      "fromSensor": 43,
+      "toSensor": 48,
+      "risk": 9
+    },
+    {
+      "fromSensor": 42,
+      "toSensor": 49,
+      "risk": 10
+    },
+    {
+      "fromSensor": 41,
+      "toSensor": 50,
+      "risk": 5
+    },
+    {
+      "fromSensor": 43,
+      "toSensor": 49,
+      "risk": 10
+    },
+    {
+      "fromSensor": 41,
+      "toSensor": 51,
+      "risk": 5
+    },
+    {
+      "fromSensor": 40,
+      "toSensor": 52,
+      "risk": 9
+    },
+    {
+      "fromSensor": 43,
+      "toSensor": 50,
+      "risk": 6
+    },
+    {
+      "fromSensor": 42,
+      "toSensor": 51,
+      "risk": 7
+    },
+    {
+      "fromSensor": 41,
+      "toSensor": 52,
+      "risk": 10
+    },
+    {
+      "fromSensor": 43,
+      "toSensor": 52,
+      "risk": 7
+    },
+    {
+      "fromSensor": 44,
+      "toSensor": 54,
+      "risk": 7
+    },
+    {
+      "fromSensor": 46,
+      "toSensor": 53,
+      "risk": 10
+    },
+    {
+      "fromSensor": 46,
+      "toSensor": 55,
+      "risk": 8
+    },
+    {
+      "fromSensor": 48,
+      "toSensor": 53,
+      "risk": 6
+    },
+    {
+      "fromSensor": 45,
+      "toSensor": 56,
+      "risk": 8
+    },
+    {
+      "fromSensor": 44,
+      "toSensor": 57,
+      "risk": 10
+    },
+    {
+      "fromSensor": 48,
+      "toSensor": 54,
+      "risk": 6
+    },
+    {
+      "fromSensor": 47,
+      "toSensor": 55,
+      "risk": 9
+    },
+    {
+      "fromSensor": 45,
+      "toSensor": 57,
+      "risk": 10
+    },
+    {
+      "fromSensor": 47,
+      "toSensor": 56,
+      "risk": 5
+    },
+    {
+      "fromSensor": 45,
+      "toSensor": 58,
+      "risk": 10
+    },
+    {
+      "fromSensor": 49,
+      "toSensor": 55,
+      "risk": 9
+    },
+    {
+      "fromSensor": 47,
+      "toSensor": 57,
+      "risk": 9
+    },
+    {
+      "fromSensor": 50,
+      "toSensor": 54,
+      "risk": 10
+    },
+    {
+      "fromSensor": 51,
+      "toSensor": 53,
+      "risk": 8
+    },
+    {
+      "fromSensor": 48,
+      "toSensor": 56,
+      "risk": 8
+    },
+    {
+      "fromSensor": 46,
+      "toSensor": 58,
+      "risk": 7
+    },
+    {
+      "fromSensor": 47,
+      "toSensor": 58,
+      "risk": 6
+    },
+    {
+      "fromSensor": 50,
+      "toSensor": 55,
+      "risk": 10
+    },
+    {
+      "fromSensor": 48,
+      "toSensor": 57,
+      "risk": 9
+    },
+    {
+      "fromSensor": 51,
+      "toSensor": 55,
+      "risk": 7
+    },
+    {
+      "fromSensor": 49,
+      "toSensor": 57,
+      "risk": 9
+    },
+    {
+      "fromSensor": 49,
+      "toSensor": 58,
+      "risk": 6
+    },
+    {
+      "fromSensor": 51,
+      "toSensor": 56,
+      "risk": 5
+    },
+    {
+      "fromSensor": 52,
+      "toSensor": 55,
+      "risk": 7
+    },
+    {
+      "fromSensor": 52,
+      "toSensor": 56,
+      "risk": 9
+    },
+    {
+      "fromSensor": 50,
+      "toSensor": 58,
+      "risk": 6
+    },
+    {
+      "fromSensor": 51,
+      "toSensor": 58,
+      "risk": 6
+    },
+    {
+      "fromSensor": 52,
+      "toSensor": 57,
+      "risk": 8
+    },
+    {
+      "fromSensor": 53,
+      "toSensor": 61,
+      "risk": 7
+    },
+    {
+      "fromSensor": 55,
+      "toSensor": 59,
+      "risk": 7
+    },
+    {
+      "fromSensor": 54,
+      "toSensor": 60,
+      "risk": 7
+    },
+    {
+      "fromSensor": 53,
+      "toSensor": 62,
+      "risk": 7
+    },
+    {
+      "fromSensor": 54,
+      "toSensor": 61,
+      "risk": 5
+    },
+    {
+      "fromSensor": 56,
+      "toSensor": 59,
+      "risk": 8
+    },
+    {
+      "fromSensor": 56,
+      "toSensor": 60,
+      "risk": 9
+    },
+    {
+      "fromSensor": 55,
+      "toSensor": 61,
+      "risk": 5
+    },
+    {
+      "fromSensor": 54,
+      "toSensor": 64,
+      "risk": 10
+    },
+    {
+      "fromSensor": 57,
+      "toSensor": 61,
+      "risk": 10
+    },
+    {
+      "fromSensor": 58,
+      "toSensor": 60,
+      "risk": 10
+    },
+    {
+      "fromSensor": 53,
+      "toSensor": 65,
+      "risk": 5
+    },
+    {
+      "fromSensor": 55,
+      "toSensor": 63,
+      "risk": 10
+    },
+    {
+      "fromSensor": 58,
+      "toSensor": 61,
+      "risk": 10
+    },
+    {
+      "fromSensor": 55,
+      "toSensor": 64,
+      "risk": 8
+    },
+    {
+      "fromSensor": 57,
+      "toSensor": 62,
+      "risk": 5
+    },
+    {
+      "fromSensor": 57,
+      "toSensor": 63,
+      "risk": 5
+    },
+    {
+      "fromSensor": 56,
+      "toSensor": 64,
+      "risk": 7
+    },
+    {
+      "fromSensor": 55,
+      "toSensor": 65,
+      "risk": 10
+    },
+    {
+      "fromSensor": 54,
+      "toSensor": 66,
+      "risk": 9
+    },
+    {
+      "fromSensor": 57,
+      "toSensor": 64,
+      "risk": 9
+    },
+    {
+      "fromSensor": 56,
+      "toSensor": 65,
+      "risk": 6
+    },
+    {
+      "fromSensor": 55,
+      "toSensor": 66,
+      "risk": 8
+    },
+    {
+      "fromSensor": 57,
+      "toSensor": 65,
+      "risk": 10
+    },
+    {
+      "fromSensor": 58,
+      "toSensor": 65,
+      "risk": 10
+    },
+    {
+      "fromSensor": 58,
+      "toSensor": 66,
+      "risk": 8
+    }
+  ],
+  "targetSensors": [
+    60,
+    62,
+    64,
+    66,
+    63,
+    65,
+    61,
+    59
+  ]
+}

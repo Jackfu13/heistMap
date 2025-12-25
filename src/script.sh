@@ -1,1 +1,1 @@
-curl 
+curl https://challenge.generatenu.com/api/v1/challenge/algorithm/990ac0bb-63e1-4180-9ea3-864983cedaa9
