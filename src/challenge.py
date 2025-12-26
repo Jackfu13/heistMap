@@ -7,14 +7,16 @@ import heapq
 def findPaths(data):
 
     targets = set(data["targetSensors"])
-    adj,roots = initGraph(data["sensors"],data["risks"])
+    adj,roots,edges = initGraph(data["sensors"],data["risks"])
     paths = []
     while targets:
         t,parent= dijkstra(adj,roots,targets)
+        if t is None:
+            break
         curPath = reconstructPath(parent,t)
         
         paths.append(curPath)
-        zeroPaths(adj,curPath)
+        zeroPaths(adj,curPath,edges)
         targets.remove(t)
         
     return {"paths":paths}
@@ -34,10 +36,13 @@ def dijkstra(adj,roots,targets):
         if id in targets:
             return id,parent
         for u,risk in adj[id]:
-            if risk+d<dist.get(u,float('inf')):
-                dist[u] = risk+d
+
+            newDist = risk+d
+            oldDist = dist.get(u, float('inf'))
+            if (newDist < oldDist) :
+                dist[u] = newDist
                 parent[u] = id
-                heapq.heappush(heap,(risk+d,u))
+                heapq.heappush(heap, (newDist, u))
     return None,parent
 
 def reconstructPath(parent,target):
@@ -51,24 +56,25 @@ def reconstructPath(parent,target):
     return path
 
 
-def zeroPaths(adj,path):
+def zeroPaths(adj,path,edges):
     for i in range(len(path)-1):
         u,v = path[i],path[i+1]
-        for edge in adj[u]:
-            if edge[0]==v:
-                edge[1]=0
-                break
+        edge = edges[(u,v)]
+        edge[1]=0
 
 def initGraph(sensors,risks):
     risk_map = {(r['fromSensor'], r['toSensor']): r['risk'] 
                 for r in risks}
     adj  = defaultdict(list)
+    edges = {}
     for sensor in sensors:
         id = sensor["id"]
         for dependant in sensor["dependencies"]:
-            adj[dependant].append([id,risk_map[(dependant,id)]])
+            edge = [id,risk_map[(dependant,id)]]
+            edges[(dependant,id)] = edge
+            adj[dependant].append(edge)
     roots = [s['id'] for s in sensors if not s['dependencies']]
-    return adj,roots
+    return adj,roots,edges
 
 def main():
     id = "990ac0bb-63e1-4180-9ea3-864983cedaa9"
