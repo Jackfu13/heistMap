@@ -3,9 +3,7 @@ import requests
 import json
 from collections import defaultdict
 import heapq
-
-def findPaths(data):
-
+def find_paths(data):
     targets = set(data["targetSensors"])
     adj,roots,edges = initGraph(data["sensors"],data["risks"])
     paths = []
@@ -14,13 +12,10 @@ def findPaths(data):
         if t is None:
             break
         curPath = reconstructPath(parent,t)
-        
         paths.append(curPath)
-        zeroPaths(adj,curPath,edges)
+        zeroPaths(curPath,edges)
         targets.remove(t)
-        
     return {"paths":paths}
-
 def dijkstra(adj,roots,targets):
     dist={}
     parent={}
@@ -31,7 +26,7 @@ def dijkstra(adj,roots,targets):
         heapq.heappush(heap, (0, r)) 
     while heap:
         d,id = heapq.heappop(heap)
-        if d != dist.get(id,float('inf')):
+        if d > dist.get(id,float('inf')):
             continue
         if id in targets:
             return id,parent
@@ -44,24 +39,19 @@ def dijkstra(adj,roots,targets):
                 parent[u] = id
                 heapq.heappush(heap, (newDist, u))
     return None,parent
-
 def reconstructPath(parent,target):
     path = []
     cur  = target
     while cur is not None:
-      
         path.append(cur)
         cur = parent[cur]
     path.reverse()
     return path
-
-
-def zeroPaths(adj,path,edges):
+def zeroPaths(path,edges):
     for i in range(len(path)-1):
         u,v = path[i],path[i+1]
         edge = edges[(u,v)]
         edge[1]=0
-
 def initGraph(sensors,risks):
     risk_map = {(r['fromSensor'], r['toSensor']): r['risk'] 
                 for r in risks}
@@ -75,22 +65,18 @@ def initGraph(sensors,risks):
             adj[dependant].append(edge)
     roots = [s['id'] for s in sensors if not s['dependencies']]
     return adj,roots,edges
-
 def main():
     id = "990ac0bb-63e1-4180-9ea3-864983cedaa9"
 
     response  = requests.get(
     f"https://challenge.generatenu.com/api/v1/challenge/algorithm/{id}"
     )
-
     if response.status_code == 200:
         data = response.json()
-
     else:
         print("Error:", response.status_code, response.text)
         exit()
-
-    paths = findPaths(data)
+    paths = find_paths(data)
     answer = requests.post(
     f"https://challenge.generatenu.com/api/v1/challenge/algorithm/{id}/submit",
     headers={
@@ -100,7 +86,6 @@ def main():
 )
     print("Status:", answer.status_code)
     print(answer.text)
-
 if __name__=="__main__":
     main()
 
